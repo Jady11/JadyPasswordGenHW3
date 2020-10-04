@@ -1,4 +1,3 @@
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 var lastResult = "";
 
@@ -14,11 +13,6 @@ function userInput() {
   var askNumbers = confirm("Do you want Numbers?");
   }
 
-
-  // var password = generatePassword();
-
-
-  // passwordText.value = password;
   generatePassword();
 
   function generatePassword() {
@@ -40,20 +34,12 @@ function userInput() {
 
     for (var i = passwordLength; i > 0; i--) {
       lastResult = lastResult + totalChar[Math.floor(Math.random() * totalChar.length-1)];
-     
-    }
+      }
   }
     console.log(lastResult);
 
-
-  
-    
     var passwordText = document.querySelector("#password");
 
     passwordText.value = lastResult;
-
 }
-
-
-// Add event listener to generate button
 generateBtn.addEventListener("click", userInput);
