@@ -8,6 +8,10 @@
 
  Included are 3 screenshots displaying stages of the Generator functions and outcome.
 
+ Links:
+    GitHub: https://github.com/Jady11/JadyPasswordGenHW3
+    Live Link: https://jady11.github.io/JadyPasswordGenHW3/
+    
 ![image](https://user-images.githubusercontent.com/70386025/95494181-b9921f80-095a-11eb-8548-744110600e95.png)
 
 ![image](https://user-images.githubusercontent.com/70386025/95494245-daf30b80-095a-11eb-887c-56e76fc5caf0.png)
